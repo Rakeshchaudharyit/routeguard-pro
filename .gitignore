@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+db.sqlite3
+*.sqlite3
+staticfiles/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# IDE and operating system
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.bak
+*.backup
+*.tmp
+*.zip
+
+# Local testing artifacts
+.pyright/
+.mypy_cache/
+.venv-backup/
+*.tsbuildinfo
